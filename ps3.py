@@ -54,6 +54,8 @@ next(fhand)
 low_float_preliminary = float('inf')
 low_date = ''
 low_time = ''
+total = 0
+count = 0
 
 # Loop reading the lines
 for line in fhand:
